@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>todolist-web-struts</artifactId>
-    <groupId>io.github.snyk</groupId>
-    <version>0.0.1</version>
+    <artifactId>maven-single-module</artifactId>
+    <groupId>io.snyk</groupId>
+    <version>1.0.0</version>
     <packaging>war</packaging>
-    <name>todolist-web-struts Maven Webapp</name>
+    <name>Maven Webapp</name>
 
     <properties>
         <spring.version>3.2.6.RELEASE</spring.version>
@@ -62,7 +62,7 @@
     </dependencies>
 
     <build>
-        <finalName>todolist</finalName>
+        <finalName>maven-single-module</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
